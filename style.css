@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Courier+Prime:ital@1&family=Finger+Paint&family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #323153;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 1rem;
+}
+
+h1{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+#url{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    width: 70%;
+}
+
+#url::placeholder{
+    text-align: center;
+}
+
+#btn{
+    background-color: #108d7d;
+    width: 100px;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s transform;
+}
+
+#btn:hover{
+    transform: translateY(-2px);
+}
+
+p{
+    color: white;
+}
+
+#results{
+    color: white;
+    display: none;
+}
+
+#shortUrlLink{
+    color: white;
+    cursor: pointer;
+}
